@@ -1,0 +1,11 @@
+w3 schools bootstrap page
+https://www.w3schools.com/bootstrap5/index.php
+
+bootstrap 5 cheat sheet
+https://bootstrapcreative.com/resources/bootstrap-5-cheat-sheet-classes-index/
+
+bootstrap documentation
+https://getbootstrap.com/docs/5.0/utilities/text/
+
+chicago renders
+https://drive.google.com/drive/folders/1NcvIB3DbK51uMrVJ8HECo_06v3QkzsD_
