@@ -1,0 +1,24 @@
+.textshadow {
+    text-shadow: 0px 0px 10px black;
+}
+
+.navbarcolor {
+    background-color: #434C55
+}
+
+.nav-item {
+    padding-right: clamp(10px, 3vw, 35px);
+    
+}
+
+.navbar-brand {
+    padding-right: clamp(10px, 3vw, 35px);
+}
+
+.titletext { 
+    font-size: clamp(30px, 4vw, 80px);
+}
+
+.subtitletext {
+    font-size: clamp(18px, 1.3vw, 65px);
+}
