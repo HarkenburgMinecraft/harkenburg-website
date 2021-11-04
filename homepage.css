@@ -22,3 +22,22 @@
 .subtitletext {
     font-size: clamp(18px, 1.3vw, 65px);
 }
+.heading4format {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.paragraphformat {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.footerformat {
+	text-align: center;
+	font-size: 14px;
+}
+
+.heading3format {
+	padding-left: 5%;
+	padding-right: 5%;
+}
