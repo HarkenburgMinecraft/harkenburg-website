@@ -1,0 +1,56 @@
+/* tag formatting */
+body { 
+    margin: 0; 
+    padding: 0;
+}
+
+footer {
+    background-color: #6B7F82;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+/* class formatting */
+.bottomfooter {
+	background-color: #4A585A;
+}
+
+.body {
+
+}
+
+
+/* misc formatting */
+.banner {
+	background-image: url("../projects/projects-background.jpg");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+	position: fixed;
+	z-index: 1;
+}
+
+#bannercontainer {
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+/* navigation bar format */
+.navbar {
+    width: 100%;
+    border-bottom: 3px solid #4A585A;
+	z-index: 1;
+}
+
+.navbarcolor {
+    background-color: #6B7F82
+}
+
+.nav-item {
+    padding-right: clamp(10px, 3vw, 35px);
+    
+}
+
+.navbar-brand {
+    padding-right: clamp(10px, 3vw, 35px);
+}
