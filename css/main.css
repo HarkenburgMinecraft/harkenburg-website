@@ -1,6 +1,6 @@
 /* text formatting */
 .titletext {
-	font-size: clamp(30px, 4vw, 80px);
+	font-size: clamp(60px, 4vw, 120px);
 	z-index: 100;
 	color: white;
 	text-shadow: 0px 0px 10px black;
@@ -20,32 +20,6 @@
     text-align: center;
 }
 
-#smallfootertext {
-    font-size: 12px;
-    color: white;
-    text-align: center;
-	padding-top: 10px;
-}
-
-#largefootertext {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-}
-
-.regularfootertext {
-	text-align: center;
-	color: white;
-}
-
-footer a,span {
-	color: white;
-}
-
-footer a:hover {
-	color: #83B9EC;
-}
-
 .centertext {
 	text-align: center;
 }
@@ -53,5 +27,41 @@ footer a:hover {
 .justifytext {
 	text-align: justify;
 }
+
+
+	/* footer text formatting */
+	.titlefootertext {
+		font-size: 45px;
+		color: white;
+		font-family: "bebas-neue";
+		text-shadow: 0px 0px 10px black;
+	}
+	.smallfootertext {
+		font-size: 14px;
+		color: white;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.regularfootertext {
+		text-align: center;
+		color: white;
+		font-size: 20px;
+	}
+
+	.largefootertext {
+		font-size: 25px;
+		color: white;
+		text-shadow: 0px 0px 10px black;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+
+	footer a,span {
+	color: white;
+	}
+
+	footer a:hover {
+	color: #83B9EC;
+	}
 
 /* image formatting */
