@@ -4,13 +4,9 @@ body {
     padding: 0;
 }
 
-footer {
-    
-}
-
 /* class formatting */
 .bottomfooter {
-	background-color: #4A585A;
+	background-color: #3C575A;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	width: 100%;
@@ -22,7 +18,7 @@ footer {
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
-	box-shadow: 0px 20px black;
+	box-shadow: 0px 20px 20px black;
 	z-index: 3;
 }
 
@@ -54,10 +50,10 @@ footer {
 /* navigation bar format */
 .navbar {
     width: 100%;
-    border-bottom: 3px solid #4A585A;
+    box-shadow: 0px 3px 5px gray;
 	z-index: 2;
 }
 
 .navbarcolor {
-    background-color: #6B7F82
+    background-color: #3C575A;
 }
