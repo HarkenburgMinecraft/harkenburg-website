@@ -4,9 +4,17 @@ body {
     padding: 0;
 }
 
+hr {
+    background-color: white;
+    width: 40%;
+    margin: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* class formatting */
 .bottomfooter {
-	background-color: #3C575A;
+	background-color: #344A55;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	width: 100%;
@@ -32,6 +40,11 @@ body {
 	margin-right: auto;
 }
 
+.hrfooter {
+    width: 50%;
+    margin-left: 0px;
+    
+}
 /* misc formatting */
 .banner {
 	background-image: url("../site-images/hosted-project-page-banner.jpg");
@@ -55,5 +68,5 @@ body {
 }
 
 .navbarcolor {
-    background-color: #3C575A;
+    background-color: #344A55;
 }

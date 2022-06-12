@@ -28,6 +28,11 @@
 	text-align: justify;
 }
 
+.fontformat a {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 20px;
+}
+
 	/* footer text formatting */
 	.titlefootertext {
 		font-size: 45px;
@@ -40,12 +45,15 @@
 		color: white;
 		text-align: center;
 		padding-top: 10px;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	}
 
 	.regularfootertext {
 		text-align: center;
 		color: white;
 		font-size: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        margin-bottom: 10px;
 	}
 
 	.largefootertext {
