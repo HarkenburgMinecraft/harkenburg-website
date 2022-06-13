@@ -35,25 +35,22 @@ hr {
 	padding-bottom: 40px;
 }
 
-.autoalign {
+.autoalign, .bodycontainer section {
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .hrfooter {
     width: 50%;
-    margin-left: 0px;
-    
+    margin-left: 0px; 
 }
+
+.bodycontainer {
+	background-color: #5A5A5A;
+	box-shadow: 0px 0px 10px black;
+}
+
 /* misc formatting */
-.banner {
-	background-image: url("../site-images/hosted-project-page-banner.jpg");
-	width: 100%;
-	background-size: cover;
-	background-position: center top;
-	z-index: 1;
-	position: sticky;
-}
 
 #bannercontainer {
 	padding-top: 15%;
@@ -63,7 +60,7 @@ hr {
 /* navigation bar format */
 .navbar {
     width: 100%;
-    box-shadow: 0px 3px 5px gray;
+    box-shadow: 0px 3px 5px black;
 	z-index: 2;
 }
 

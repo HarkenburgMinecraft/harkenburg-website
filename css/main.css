@@ -1,10 +1,18 @@
+/* font formatting */
+.gillsanstext, .fontformat a, .smallfootertext, .regularfootertext, .largefootertext, p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.bebasneuetext, .titletext, .titlefootertext, .bodytitle, .bodysubtitle {
+	font-family: "bebas-neue";
+}
+
 /* text formatting */
 .titletext {
 	font-size: clamp(80px, 4vw, 200px);
 	z-index: 100;
 	color: white;
 	text-shadow: 0px 0px 10px black;
-	font-family: bebas-neue;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -29,15 +37,24 @@
 }
 
 .fontformat a {
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
     font-size: 20px;
 }
 
+.bodytitle {
+	font-size: 60px;
+}
+
+.bodysubtitle {
+	font-size: 45px;
+}
+
+.bodyparagraphtext {
+	font-size: 20px;
+}
 	/* footer text formatting */
 	.titlefootertext {
 		font-size: 45px;
 		color: white;
-		font-family: "bebas-neue";
 		text-shadow: 0px 0px 10px black;
 	}
 	.smallfootertext {
@@ -45,14 +62,12 @@
 		color: white;
 		text-align: center;
 		padding-top: 10px;
-        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	}
 
 	.regularfootertext {
 		text-align: center;
 		color: white;
 		font-size: 20px;
-        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
         margin-bottom: 10px;
 	}
 
@@ -60,15 +75,38 @@
 		font-size: 25px;
 		color: white;
 		text-shadow: 0px 0px 10px black;
-		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	}
 
-	footer a,span {
-	color: white;
+	.largefootertext li {
+		list-style-type: '> ';
 	}
 
-	footer a:hover {
-	color: #83B9EC;
-	}
+		footer a,span {
+		color: white;
+		}
+
+		footer a:hover {
+		color: #83B9EC;
+		}
 
 /* image formatting */
+.iconthing {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.banner {
+	background-image: url("../site-images/hosted-project-page-banner.jpg");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+	z-index: 1;
+	position: sticky;
+}
+
+.server-info-banner {
+	background-image: url("/images/ChicagoSideNarrow.jpeg");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
