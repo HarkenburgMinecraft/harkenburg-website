@@ -1,13 +1,24 @@
-/* font formatting */
+/* 
+
+	----  M A I N   C S S   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	For:
+	- text formatting (size, color, margin, padding, etc)
+	- image formatting (padding, scale, width, etc)
+	- Includes; css for the site banner, footers, project tiles etc
+
+*/
+
+/* -- FONT FORMATTING -- */
 .gillsanstext, .fontformat a, .smallfootertext, .regularfootertext, .largefootertext, p {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
-.bebasneuetext, .titletext, .titlefootertext, .bodytitle, .bodysubtitle {
+.bebasneuetext, .titletext, .titlefootertext, .bodytitle, .project-card-subtitle {
 	font-family: "bebas-neue";
 }
 
-/* text formatting */
+/* -- TEXT FORMATTING -- */
 .titletext {
 	font-size: clamp(80px, 4vw, 200px);
 	z-index: 100;
@@ -28,11 +39,11 @@
     text-align: center;
 }
 
-.centertext {
+.center-text {
 	text-align: center;
 }
 
-.justifytext {
+.justify-text {
 	text-align: justify;
 }
 
@@ -42,54 +53,60 @@
 
 .bodytitle {
 	font-size: 60px;
+	padding-top: 50px;
 }
 
-.bodysubtitle {
+.project-card-subtitle {
 	font-size: 45px;
 }
 
 .bodyparagraphtext {
 	font-size: 20px;
 }
-	/* footer text formatting */
-	.titlefootertext {
-		font-size: 45px;
-		color: white;
-		text-shadow: 0px 0px 10px black;
+
+#summary-top-text {
+	padding-top: 60px;
+}
+
+/* -- FOOTER TEXT -- */
+.titlefootertext {
+	font-size: 45px;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+}
+.smallfootertext {
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.regularfootertext {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.largefootertext {
+	font-size: 25px;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+}
+
+.largefootertext li {
+	list-style-type: '> ';
+}
+
+	footer a,span {
+	color: white;
 	}
-	.smallfootertext {
-		font-size: 14px;
-		color: white;
-		text-align: center;
-		padding-top: 10px;
+
+	footer a:hover {
+	color: #83B9EC;
 	}
 
-	.regularfootertext {
-		text-align: center;
-		color: white;
-		font-size: 20px;
-        margin-bottom: 10px;
-	}
-
-	.largefootertext {
-		font-size: 25px;
-		color: white;
-		text-shadow: 0px 0px 10px black;
-	}
-
-	.largefootertext li {
-		list-style-type: '> ';
-	}
-
-		footer a,span {
-		color: white;
-		}
-
-		footer a:hover {
-		color: #83B9EC;
-		}
-
-/* image formatting */
+/* -- IMAGE FORMATTING -- */
 .iconthing {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -100,13 +117,45 @@
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
-	z-index: 1;
-	position: sticky;
 }
 
-.server-info-banner {
-	background-image: url("/images/ChicagoSideNarrow.jpeg");
+/* project banner classes for the "hosted projects" section*/
+.CHICAGO-project-banner-image {
+	background-image: url("../card-banners/chicago-card-banner.jpg");
 	width: 100%;
 	background-size: cover;
-	background-position: center top;
+	background-position: center;
+	border-radius: 15px;
+}
+
+.PORTLAND-project-banner-image {
+	background-image: url("../card-banners/portland-card-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px;
+}
+
+.TORONTO-project-banner-image {
+	background-image: url("../card-banners/toronto-card-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px;
+}
+
+.KANSAS-project-banner-image {
+	background-image: url("../card-banners/kansas-card-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px;
+}
+
+.GATLIN-project-banner-image {
+	background-image: url("../card-banners/gatlin-card-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px;
 }
