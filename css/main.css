@@ -20,7 +20,7 @@
 
 /* -- TEXT FORMATTING -- */
 .titletext {
-	font-size: clamp(80px, 4vw, 200px);
+	font-size: clamp(80px, 4vw, 150px);
 	z-index: 100;
 	color: white;
 	text-shadow: 0px 0px 10px black;
