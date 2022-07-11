@@ -11,7 +11,10 @@
 */
 
 /*  media queries */
+
+/*
 @media only screen and (min-width: 1300px) {
+	
 	.project-card-text {
 		padding-top: 60px;
 		padding-bottom: 60px;
@@ -20,7 +23,7 @@
 	}
 	
 	.titletext {
-		font-size: 150px;
+		font-size: 100px;
 	}
 	
 	.bodytitle {
@@ -32,8 +35,8 @@
 	}
 	
 	#bannercontainer {
-		padding-top: 10%;
-		padding-bottom: 10%;
+		padding-top: 8%;
+		padding-bottom: 8%;
 	}
 	
 	.mainbody {
@@ -42,39 +45,5 @@
 	}
 }
 
-@media only screen and (min-width: 2200px) {
-	.project-card-text {
-		padding-top: 100px;
-		padding-bottom: 100px;
-		padding-right: 10%;
-		padding-left: 10%;
-	}
-	
-	.titletext {
-		font-size: 175px;
-	}
-	
-	.bodytitle {
-		font-size: 75px;
-	}
-	
-	.bodycontainer p{
-		font-size: 20px;
-	}
-	
-	#bannercontainer {
-		padding-top: 10%;
-		padding-bottom: 10%;
-	}
-	
-	.mainbody {
-		padding-left: 8%;
-		padding-right: 8%;
-	}
-}
+*/
 
-@media only screen and (max-width: 576px) {
-	#summary-top-text {
-	padding-top: 0px;
-	}
-}

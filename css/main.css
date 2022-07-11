@@ -14,22 +14,24 @@
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
-.bebasneuetext, .titletext, .titlefootertext, .bodytitle, .project-card-subtitle {
+.bebasneuetext, .main-title, .titlefootertext, .bodytitle, .project-card-subtitle, .main-title-subtitle {
 	font-family: "bebas-neue";
 }
 
 /* -- TEXT FORMATTING -- */
-.titletext {
-	font-size: clamp(80px, 4vw, 150px);
+.main-title {
+	font-size: 130px;
 	z-index: 100;
 	color: white;
 	text-shadow: 0px 0px 10px black;
-	font-weight: 400;
 	font-style: normal;
 }
 
-.subtitletext {
-    font-size: clamp(18px, 1.3vw, 65px);
+.main-title-subtitle {
+	font-size: 50px;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+	font-style: normal;
 }
 
 .caption {
@@ -66,6 +68,10 @@
 
 #summary-top-text {
 	padding-top: 60px;
+}
+
+.cta {
+	font-size: 20px;
 }
 
 /* -- FOOTER TEXT -- */
@@ -159,3 +165,5 @@
 	background-position: center;
 	border-radius: 15px;
 }
+
+
