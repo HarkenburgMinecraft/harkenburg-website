@@ -1,0 +1,6 @@
+.homepage-banner {
+	background-image: url("../site-images/homepage-background.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}

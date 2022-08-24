@@ -14,7 +14,7 @@
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
-.bebasneuetext, .main-title, .titlefootertext, .bodytitle, .project-card-subtitle, .main-title-subtitle {
+.bebasneuetext, .main-title, .titlefootertext, .bodytitle, .project-card-subtitle, .main-title-subtitle, {
 	font-family: "bebas-neue";
 }
 
@@ -24,7 +24,6 @@
 	z-index: 100;
 	color: white;
 	text-shadow: 0px 0px 10px black;
-	font-style: normal;
 }
 
 .main-title-subtitle {
