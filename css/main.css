@@ -119,6 +119,13 @@
 	background-position: center top;
 }
 
+.projects-banner {
+	background-image: url("../site-images/hosted-project-page-banner.jpg");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
 /* project banner classes for the "hosted projects" section*/
 .CHICAGO-project-banner-image {
 	background-image: url("../card-banners/chicago-card-banner.jpg");
