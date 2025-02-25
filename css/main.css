@@ -52,11 +52,6 @@
     font-size: 20px;
 }
 
-.bodytitle {
-	font-size: 60px;
-	padding-top: 50px;
-}
-
 .project-card-subtitle {
 	font-size: 45px;
 }
@@ -117,8 +112,8 @@
 	padding-right: 0px;
 }
 
-.banner {
-	background-image: url("../site-images/hosted-project-page-banner.jpg");
+.homepage-banner {
+	background-image: url("../site-images/homepage-background.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
