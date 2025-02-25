@@ -126,6 +126,13 @@
 	background-position: center top;
 }
 
+.charleston-banner {
+	background-image: url("../hosted-projects/charleston/web-icons/charleston-banner.jpg");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
 /* project banner classes for the "hosted projects" section*/
 .CHICAGO-project-banner-image {
 	background-image: url("../card-banners/chicago-card-banner.jpg");
@@ -135,15 +142,15 @@
 	border-radius: 15px;
 }
 
-.PORTLAND-project-banner-image {
-	background-image: url("../card-banners/portland-card-banner.png");
+.CHARLESTON-project-banner-image {
+	background-image: url("../card-banners/charleston-card-banner.jpg");
 	width: 100%;
 	background-size: cover;
 	background-position: center;
 	border-radius: 15px;
 }
 
-.TORONTO-project-banner-image {
+.TORONTO-replica-banner-image {
 	background-image: url("../card-banners/toronto-card-banner.png");
 	width: 100%;
 	background-size: cover;
@@ -151,16 +158,16 @@
 	border-radius: 15px;
 }
 
-.KANSAS-project-banner-image {
-	background-image: url("../card-banners/kansas-card-banner.png");
+.WARWICK-project-banner-image {
+	background-image: url("../card-banners/warwick-card-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center;
 	border-radius: 15px;
 }
 
-.GATLIN-project-banner-image {
-	background-image: url("../card-banners/gatlin-card-banner.png");
+.BLUFFTON-project-banner-image {
+	background-image: url("../card-banners/bluffton-card-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center;
